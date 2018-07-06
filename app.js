@@ -9,10 +9,10 @@ const JSONbig = require('json-bigint');
 const async = require('async');
 
 const REST_PORT = (process.env.PORT || 5000);
-const APIAI_ACCESS_TOKEN = process.env.APIAI_ACCESS_TOKEN || '6b5abbf2bd784995bebb3fd23386ecf9';
+const APIAI_ACCESS_TOKEN = process.env.APIAI_ACCESS_TOKEN || 'aaa29646acd949f5804addfb33f87a22';
 const APIAI_LANG = process.env.APIAI_LANG || 'en';
 const FB_VERIFY_TOKEN = process.env.FB_VERIFY_TOKEN || '123456789';
-const FB_PAGE_ACCESS_TOKEN = process.env.FB_PAGE_ACCESS_TOKEN || 'EAAbGlBeOGUcBAA7iOGUmi9SWR50nT0fyjkP3KZCyJt4aWfED9bhDT9svwpwPHZC2grl88xR0UtnnZCKZCsZBqWRkhZBpasuSeOwG8fmdJEIGZCl2SEKoyfSrcVou0FlLAtX2xcMHlrcwPUC3fTefpUknrRTidUUzWkLwsqCFzuM1gZDZD';
+const FB_PAGE_ACCESS_TOKEN = process.env.FB_PAGE_ACCESS_TOKEN || 'EAAddd4cZAkK0BAK5qNAKWni4CJ7szroeyopLcmHiobOoREmXNZCb2ArRFFl4IkBLlnnnWCVeErKKfjMcKSEZAjm5U0j3qmk7hPDza84vDdLCcv89zMGtxXXPx0TzKefZBan6ZAZCvZAGs6IZAJiMKS19WmVTZBsrnIMjqdYiL6ttyHwZDZD';
 const FB_TEXT_LIMIT = 640;
 
 const FACEBOOK_LOCATION = "FACEBOOK_LOCATION";
