@@ -9,7 +9,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/html'});
    
    // Send the response body as "Hello World"
-   response.end('<b>Hello World...</b>\n');
+   response.end('<b><font color=red>Hello World...</font></b>\n');
 }).listen(REST_PORT);
 
 // Console will print the message
